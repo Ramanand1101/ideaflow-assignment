@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideaflow-Task Manager</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="app-name">Ideaflow Assignment App</div>
+        <input type="text" class="search-bar" placeholder="Search tasks...">
+        <button class="create-button" id="createButton">Create</button>
+    </nav>
+    <div class="home-section">
+        <ul class="task-list" id="taskList">
+            <!-- Task items will be added dynamically here -->
+        </ul>
+    </div>
+    <div class="create-task-modal" id="createTaskModal">
+        <input type="text" id="taskNameInput" placeholder="Task name">
+        <select id="linkedTaskSelect">
+            <option value="">Select a linked task (optional)</option>
+            <!-- Linked task options will be added dynamically here -->
+        </select>
+        <button id="createTaskBtn">Create Task</button>
+    </div>
+    <h3>Created by ✅Ramanand Tiwari</h3>
+</body>
+
+</html>
+<script src="./index.js"></script>
